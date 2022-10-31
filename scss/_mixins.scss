@@ -1,0 +1,3 @@
+@mixin toRem($property, $valueInPx) {
+    #{$property}: ($valueInPx / 16) + rem;
+}
